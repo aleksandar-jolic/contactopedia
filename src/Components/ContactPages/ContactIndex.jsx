@@ -26,8 +26,22 @@ function ContactIndex() {
     ]);
 
     return ( 
-        <div className="container">
-             
+        <div className="container" style={{minHeight: "85vh"}}>
+            <div className="py-3">
+                <div className="row py-2">
+                    <div className="col-6">
+                        ADD CONTACT
+                    </div>
+                    <div className="col-6">
+                        REMOVE CONTACT
+                    </div>
+                </div>
+                <div className="py-2">
+                    <div className="col-12">
+                        FROM TO ADD NEW CONTACT
+                    </div> 
+                </div>
+            </div>
         </div>
      );
 } 
